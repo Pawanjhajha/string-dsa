@@ -22,3 +22,14 @@ for(let [key,value] of map){
         console.log(key)
     }
 }
+
+function firstNonRepeatingChar(str) {
+  for (let char of str) {
+    if (str.indexOf(char) === str.lastIndexOf(char)) {
+      return char;
+    }
+  }
+  return "None";
+}
+
+console.log(firstNonRepeatingChar("aabbcddee")); // c
