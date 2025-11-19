@@ -18,3 +18,10 @@ if(result === str){
 }else{
     console.log("not palindrom")
 }
+
+
+Input: "Racecar" → Output: true
+
+Input: "A man a plan a canal Panama" → Output: true
+
+Input: "hello" → Output: false
